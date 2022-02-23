@@ -3,7 +3,11 @@
   <head>
     <meta charset='utf-8' />
     <link href='main.css' rel='stylesheet' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <script src='main.js'></script>
+    <script src="https://kit.fontawesome.com/162bf79cd9.js" crossorigin="anonymous"></script>
     <script>
 
       document.addEventListener('DOMContentLoaded', function() {
@@ -17,6 +21,22 @@
     </script>
   </head>
   <body>
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <a class="gnu" href="" >GNU</a>
+        <a href="">calendar</a>
+      </div>
+      <div class="navbar_che">
+        <button class="navbar_check_Btn" ></button>
+        <li class="navbar_check_li">경상대 학부생</li>
+        <button class="navbar_check_Btn"></button>
+        <li class="navbar_check_li">컴퓨터과학과</li>
+      </div>
+
+      <a href="" class="navbar_toogleBtn">
+          <i class="fa-solid fa-bars"></i>
+      </a>
+    </nav>
     <div id='calendar'></div>
   </body>
 </html>

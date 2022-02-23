@@ -1,3 +1,5 @@
+// navbar
+
 /*!
 FullCalendar v5.10.2
 Docs & License: https://fullcalendar.io/
